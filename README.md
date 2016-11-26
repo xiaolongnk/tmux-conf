@@ -22,10 +22,17 @@ sudo apt-get install tmux
 brew install tmux
 brew install reattach-to-user-namespace
 ```
+https://github.com/tmux-plugins/tpm
+
+在安装其他软件之前，需要安装tpm。
+
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
 
 ### 插件
 
-1. 插件管理 tpm [tpm]()
+1. 插件管理 tpm [tpm](https://github.com/tmux-plugins/tpm)
 2. session 恢复
 3. 支持鼠标滚动 scroll 。
 4. 支持复制到clipboard
